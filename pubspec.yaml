@@ -1,0 +1,63 @@
+name: facts_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  card_swiper: ^3.0.1
+  flutter:
+    sdk: flutter
+  
+  flutter_local_notifications: ^17.0.0+4
+  permission_handler: ^12.0.0+1
+  provider: ^6.1.5
+  share_plus: ^11.0.0
+  shared_preferences: ^2.5.3
+  timezone: ^0.9.4
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.3
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter_launcher_icons:
+  andriod: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"  
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/facts.json
+    - assets/images/sports.jpg
+    - assets/images/animals.jpg
+    - assets/images/birds.jpg
+    - assets/images/biology.jpg
+    - assets/images/technology.jpg
+    - assets/images/child_psycho.jpg
+    - assets/images/splash_logo.jpg
+    - assets/images/ai.jpg
+    - assets/images/comp_short.jpg
+    - assets/images/computer.jpg
+    - assets/images/literature.jpg
+    - assets/images/food.jpg
+    - assets/images/fun_facts.jpg
+    - assets/images/science.jpg
+    - assets/images/generalknowledge.jpg
+    - assets/images/health.jpg
+    - assets/images/human.jpg
+    - assets/images/inventions.jpg
+    - assets/images/japan.jpg
+    - assets/images/movies.jpg
+    - assets/images/nature.jpg
+    - assets/images/psychology.jpg
+    - assets/images/women.jpg
+    - assets/images/world.jpg
+    - assets/images/youtube.jpg
+    
+    
