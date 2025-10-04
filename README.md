@@ -28,21 +28,12 @@ Welcome to **Factopedia**, your daily source of fascinating, mind-blowing facts 
 
 ---
 
-## 🔧 Installation
-
-```bash
-git clone https://github.com/Shamshub01/Facts-App.git
-cd Facts-App
-flutter pub get
-flutter run
-```
-
 
 ## 🧑‍💻 About Me
 
 Hi, I'm **Talha Shams** – a passionate Flutter developer crafting sleek and engaging mobile/web apps.
 
-- 📬 [GitHub](https://github.com/Shamshub01)
+- 📬 [GitHub](https://github.com/talhashams01)
 - 💼 [LinkedIn](https://www.linkedin.com/in/talha-shams-20b524269)
 - ✉️ Contact: talhashamsdev101@gmail.com
 
