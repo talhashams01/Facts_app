@@ -33,7 +33,7 @@ Welcome to **Factopedia**, your daily source of fascinating, mind-blowing facts 
 
 Hi, I'm **Talha Shams** – a passionate Flutter developer crafting sleek and engaging mobile/web apps.
 
-- 📬 [GitHub](https://github.com/talhashams01)
+- 📬 [GitHub Repo Link](https://github.com/talhashams01/Facts_app.git)
 - 💼 [LinkedIn](https://www.linkedin.com/in/talha-shams-20b524269)
 - ✉️ Contact: talhashamsdev101@gmail.com
 
