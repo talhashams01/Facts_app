@@ -1,6 +1,5 @@
 import 'package:facts_app/models/quiz_question_model.dart';
 
-//import '../models/quiz_question.dart';
 
 final List<QuizQuestion> mcqQuestions = [
   QuizQuestion(

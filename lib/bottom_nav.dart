@@ -1,64 +1,11 @@
-//import 'package:facts_app/data/facts_data.dart';
-//import 'package:facts_app/models/fact.dart';
-// import 'package:facts_app/data/facts_data.dart';
-// //import 'package:facts_app/models/fact.dart';
-// import 'package:facts_app/screens/category_screen.dart';
-// import 'package:facts_app/screens/favorites_screen.dart';
-// import 'package:flutter/material.dart';
-// //import 'package:facts_app/screens/counter_screen.dart';
-// //import 'package:facts_app/screens/qibla_screen.dart';
-// import '../screens/home_screen.dart';
 
-// class BottomNav extends StatefulWidget {
-//   const BottomNav({super.key});
-
-//   @override
-//   _BottomNavState createState() => _BottomNavState();
-// }
-
-
-// class _BottomNavState extends State<BottomNav> {
-//   int currentIndex = 0;
-
-//   final List<Widget> screens = [
-//      HomeScreen(facts: allFacts),
-//      CategoryScreen(), // Tab 2
-//     FavoritesScreen(), // Tab 3
-//     const Placeholder(), // Tab 4
-//     const Placeholder(), // Tab 5
-//   ];
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       body: screens[currentIndex],
-//       bottomNavigationBar: BottomNavigationBar(
-//         currentIndex: currentIndex,
-//         onTap: (index) => setState(() => currentIndex = index),
-//         items: const [
-//           BottomNavigationBarItem(icon: Icon(Icons.home,color: Color.fromARGB(255, 248, 250, 250),), label: 'Home',backgroundColor: Color.fromARGB(255, 114, 99, 89),tooltip: 'Home'),
-//           BottomNavigationBarItem(icon: Icon(Icons.category,), label: 'Category',tooltip: 'Category'),
-//           BottomNavigationBarItem(icon: Icon(Icons.favorite), label: 'Favorites',tooltip: 'Favorites'),
-//           BottomNavigationBarItem(icon: Icon(Icons.explore), label: 'Tab 4'),
-//           BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Tab 5'),
-//         ],
-//       ),
-//     );
-//   }
-// }
-
-//import 'package:facts_app/data/facts_data.dart';
-//import 'package:facts_app/models/fact.dart';
- //import 'package:facts_app/data/facts_data.dart';
- //import 'package:facts_app/screens/category_screen.dart';
-//import 'package:facts_app/screens/favorites_screen.dart';
- import 'package:facts_app/screens/category_screen.dart';
+import 'package:facts_app/screens/category_screen.dart';
 import 'package:facts_app/screens/favorites_screen.dart';
 import 'package:facts_app/screens/home_screen.dart';
 import 'package:facts_app/screens/quiz_screen.dart';
 import 'package:facts_app/screens/setting_screen.dart';
 import 'package:flutter/material.dart';
- // import '../screens/home_screen.dart';
+ 
 
 class BottomNav extends StatefulWidget {
 
@@ -71,10 +18,7 @@ class _BottomNavState extends State<BottomNav> {
   int _selectedIndex = 0;
 
   final List<Widget> _screens = [
-    // const Center(child: Text('Home')),
-    // const Center(child: Text('Category')),
-    // const Center(child: Text('Favourite')),
-    // const Center(child: Text('Settings')),
+    
     HomeScreen(),
     CategoryScreen(),
 
